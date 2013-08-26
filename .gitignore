@@ -1,0 +1,7 @@
+.svn
+.project
+.settings
+.classpath
+*.docx
+classes
+bin
