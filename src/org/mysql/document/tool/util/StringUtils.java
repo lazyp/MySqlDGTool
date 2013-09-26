@@ -7,8 +7,8 @@ package org.mysql.document.tool.util;
  * @date 2012-7-8下午7:28:28
  */
 public final class StringUtils {
+
     /**
-     * 
      * <code>
      * <p>
      * 判断一个String对象是否有长度.
@@ -22,6 +22,6 @@ public final class StringUtils {
      * @return
      */
     public static boolean hasLength(String s) {
-	return !ObjectUtils.isNull(s) && s.trim().length() > 0;
+        return !ObjectUtils.isNull(s) && s.trim().length() > 0;
     }
 }

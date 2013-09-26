@@ -26,13 +26,13 @@ public final class CMDMysqlDGTool {
         Parameters parameters = CMDHelper.parseCommand(cmd);
 
         if (parameters == null) {
+            System.err.println("parameter parse exception.");
             System.exit(-1);
         }
 
         DBUtils dbUtils = new DBUtils(parameters);
 
         long startTime = System.currentTimeMillis();
-        System.out.println("product...");
 
         Map<String, HashMap<String, LinkedHashMap<String, String>>> data = dbUtils.getDatabaseInfo();
 

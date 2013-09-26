@@ -33,7 +33,7 @@ import org.mysql.document.tool.util.StringUtils;
 /**
  * 图形界面
  * 
- * @author hxl
+ * @author hxl 
  * @date 2012-7-8下午06:31:41
  */
 public class MysqlDGToolGUI extends JFrame {
