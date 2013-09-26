@@ -9,12 +9,21 @@ import org.mysql.document.tool.Parameters;
  * 
  * @author hxl
  * @date 2012-6-14下午4:34:57
+ * @formatter:off
  */
 public final class CMDHelper {
 
-    private static final String cmdHelpString = "-h 数据库地址 \n" + "-u 用户名 \n" + "-p 密码 \n" + "-P 端口 \n" + "-d 数据库名 \n"
-                                                + "-t 表名 \n" + "--path 储存文档的路径\n" + "--help 帮助 \n" + "说明:\n"
-                                                + "  1.-u -p -d 必填参数.\n" + "  2.命令后面要打一个空格，然后跟参数 \n"
+    private static final String cmdHelpString = "-h 数据库地址 \n" 
+                                                + "-u 用户名 \n" 
+                                                + "-p 密码 \n" 
+                                                + "-P 端口 \n" 
+                                                + "-d 数据库名 \n"
+                                                + "-t 表名 \n" 
+                                                + "--path 储存文档的路径\n" 
+                                                + "--help 帮助 \n" 
+                                                + "说明:\n"
+                                                + "  1.-u -p -d 必填参数.\n" 
+                                                + "  2.命令后面要打一个空格，然后跟参数 \n"
                                                 + "  如：-h 127.0.0.1 -u root -p root -d database --path D:\\doc \n";
 
     /**
