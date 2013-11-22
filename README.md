@@ -1,1 +1,2 @@
-MySQL Êı¾İ¿â±íµµÉú³É¹¤¾ß
+MySQL æ•°æ®åº“è¡¨æ¡£ç”Ÿæˆå·¥å…·
+![ç”Ÿæˆæ•ˆæœ](http://static.oschina.net/uploads/space/2012/1107/100455_xjm8_175003.jpg)
