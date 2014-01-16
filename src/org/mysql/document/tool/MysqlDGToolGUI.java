@@ -174,7 +174,7 @@ public class MysqlDGToolGUI extends JFrame {
 		contentPane.add(pathTextField);
 		pathTextField.setColumns(10);
 
-		JButton btnProduct = new JButton("Product");
+		JButton btnProduct = new JButton("Generate");
 		btnProduct.setBounds(298, 179, 93, 23);
 		contentPane.add(btnProduct);
 		final ProgressBar progressBar = new ProgressBar(this);
